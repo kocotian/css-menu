@@ -1,34 +1,36 @@
 html, body {
-	background-color: black;
-	color: white;
+	background-color: black; /* ustawienie koloru tła */
+	color: white; /* ustawienie koloru tekstu */
 }
 
 ul {
+	/* ustawienie marginesu zewnętrznego i wewnętrznego */
 	margin: 0; padding: 0;
 }
 
 ul > li {
-	list-style: none;
-	display: block;
-	margin: 3px;
-	padding: 6px;
-	border: 3px solid #242424;
-	border-radius: 9px;
-	background-color: #121212;
-	width: fit-content;
-	text-align: center;
-	float: left;
+	list-style: none; /* usunięcie kropek w liście */
+	display: block; /* ustawienie trybu wyświetlania jako blok tekstu */
+	margin: 3px; /* ustawienie marginesu zewnętrznego na 3 piksele */
+	padding: 6px; /* ustawienie marginesu wewnętrznego na 6 pikseli */
+	border: 3px solid #242424; /* ustawienie obramowania na 3 piksele
+	                              ciągłej linii o kolorze #242424 */
+	border-radius: 9px; /* ustawienie zaokrąglenia obramowania na 9 pikseli */
+	background-color: #121212; /* ustawienie tła elementu na #121212 */
+	width: fit-content; /* ustawienie szerokości na szerokość tekstu */
+	text-align: center; /* wyśrodkowanie tekstu */
+	float: left; /* przyleganie do prawej strony */
 }
 
-ul > li:hover {
-	background-color: #242424;
+ul > li:hover { /* złapanie każdego elementu li w tagu ul tylko przy najechaniu */
+	background-color: #242424; /* ustawienie tła elementu na #242424 */
 }
 
 ul > li > a {
-	color: white;
-	text-decoration: none;
+	color: white; /* ustawienie koloru tekstu */
+	text-decoration: none; /* usunięcie dekoracji tekstu (podkreślenia) */
 }
 
 div.clear {
-	clear: both;
+	clear: both; /* wyczyszczenie przylegania (float: left) */
 }
