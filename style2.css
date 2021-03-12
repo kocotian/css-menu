@@ -1,0 +1,18 @@
+html, body {
+	background-color: black;
+	color: white;
+}
+
+a.elmenu:hover {
+	background-color: #242424;
+}
+
+a.elmenu {
+	color: white;
+	text-decoration: none;
+	background-color: #121212;
+	margin: 3px;
+	padding: 6px;
+	border: 3px solid #242424;
+	border-radius: 9px;
+}
